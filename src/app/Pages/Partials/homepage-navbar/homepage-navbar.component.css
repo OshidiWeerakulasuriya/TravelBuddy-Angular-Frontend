@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #dedba7;
+  }
+  
+  .navbar-nav {
+    margin: auto; /* Center-align the navigation links */
+    background-color: #dedba7;
+
+  }
+  
+  .navbar-nav .nav-link {
+    color: #1976d2; /* Set the text color of the navigation links */
+    font-weight: bold; /* Make the font bold */
+  }

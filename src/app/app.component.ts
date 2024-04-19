@@ -7,11 +7,12 @@ import { NgModule } from '@angular/core';
 import { NgModel } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { HomepageNavbarComponent } from './Pages/Partials/homepage-navbar/homepage-navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FormsModule, ReactiveFormsModule, HttpClientModule],
+  imports: [RouterOutlet, NavbarComponent, FormsModule, ReactiveFormsModule, HttpClientModule, HomepageNavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
